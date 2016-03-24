@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4EDF385B1C980E75004986D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EDF385A1C980E75004986D4 /* main.m */; };
+		4EDF385E1C980E75004986D4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EDF385D1C980E75004986D4 /* AppDelegate.m */; };
+		4EDF38641C980E75004986D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EDF38621C980E75004986D4 /* Main.storyboard */; };
+		4EDF38691C980E75004986D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EDF38671C980E75004986D4 /* LaunchScreen.storyboard */; };
+		4EDF38741C980E75004986D4 /* LovinglifeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EDF38731C980E75004986D4 /* LovinglifeTests.m */; };
+		4EDF387F1C980E75004986D4 /* LovinglifeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EDF387E1C980E75004986D4 /* LovinglifeUITests.m */; };
+		4EDF388E1C98165A004986D4 /* LLHomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EDF388D1C98165A004986D4 /* LLHomePageViewController.m */; };
+		4EDF38931C9816D2004986D4 /* LLChattingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EDF38921C9816D2004986D4 /* LLChattingViewController.m */; };
+		4EDF38991C981771004986D4 /* LLMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EDF38981C981770004986D4 /* LLMineViewController.m */; };
+		4EDF389C1C9817A7004986D4 /* LLCommunityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EDF389B1C9817A7004986D4 /* LLCommunityViewController.m */; };
+		4EDF38AC1CA400C0004986D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EDF38AB1CA400C0004986D4 /* Assets.xcassets */; };
+		5A9C3E03250126F359D4471C /* libPods-Lovinglife.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A067EE6158ACC590DCA66EF9 /* libPods-Lovinglife.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4EDF38701C980E75004986D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EDF384E1C980E75004986D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EDF38551C980E75004986D4;
+			remoteInfo = Lovinglife;
+		};
+		4EDF387B1C980E75004986D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EDF384E1C980E75004986D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EDF38551C980E75004986D4;
+			remoteInfo = Lovinglife;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4EDF38561C980E75004986D4 /* Lovinglife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lovinglife.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EDF385A1C980E75004986D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4EDF385C1C980E75004986D4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4EDF385D1C980E75004986D4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4EDF38631C980E75004986D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4EDF38681C980E75004986D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4EDF386A1C980E75004986D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EDF386F1C980E75004986D4 /* LovinglifeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LovinglifeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EDF38731C980E75004986D4 /* LovinglifeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LovinglifeTests.m; sourceTree = "<group>"; };
+		4EDF38751C980E75004986D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EDF387A1C980E75004986D4 /* LovinglifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LovinglifeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EDF387E1C980E75004986D4 /* LovinglifeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LovinglifeUITests.m; sourceTree = "<group>"; };
+		4EDF38801C980E75004986D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EDF388C1C98165A004986D4 /* LLHomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLHomePageViewController.h; sourceTree = "<group>"; };
+		4EDF388D1C98165A004986D4 /* LLHomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLHomePageViewController.m; sourceTree = "<group>"; };
+		4EDF38911C9816D2004986D4 /* LLChattingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLChattingViewController.h; sourceTree = "<group>"; };
+		4EDF38921C9816D2004986D4 /* LLChattingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLChattingViewController.m; sourceTree = "<group>"; };
+		4EDF38971C981770004986D4 /* LLMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLMineViewController.h; sourceTree = "<group>"; };
+		4EDF38981C981770004986D4 /* LLMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLMineViewController.m; sourceTree = "<group>"; };
+		4EDF389A1C9817A7004986D4 /* LLCommunityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLCommunityViewController.h; sourceTree = "<group>"; };
+		4EDF389B1C9817A7004986D4 /* LLCommunityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLCommunityViewController.m; sourceTree = "<group>"; };
+		4EDF38AB1CA400C0004986D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Lovinglife/Assets.xcassets; sourceTree = "<group>"; };
+		A067EE6158ACC590DCA66EF9 /* libPods-Lovinglife.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Lovinglife.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2DB6B87DE9662F9D29BEEA0 /* Pods-Lovinglife.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lovinglife.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lovinglife/Pods-Lovinglife.debug.xcconfig"; sourceTree = "<group>"; };
+		DD0270157029B577438CB0A8 /* Pods-Lovinglife.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lovinglife.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lovinglife/Pods-Lovinglife.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4EDF38531C980E75004986D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A9C3E03250126F359D4471C /* libPods-Lovinglife.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EDF386C1C980E75004986D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EDF38771C980E75004986D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4EDF384D1C980E75004986D4 = {
+			isa = PBXGroup;
+			children = (
+				4EDF38AB1CA400C0004986D4 /* Assets.xcassets */,
+				4EDF38581C980E75004986D4 /* Lovinglife */,
+				4EDF38721C980E75004986D4 /* LovinglifeTests */,
+				4EDF387D1C980E75004986D4 /* LovinglifeUITests */,
+				4EDF38571C980E75004986D4 /* Products */,
+				8FCACBBCBCB049C262EDF6A2 /* Pods */,
+				5BC583B755741FFE308532DB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4EDF38571C980E75004986D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4EDF38561C980E75004986D4 /* Lovinglife.app */,
+				4EDF386F1C980E75004986D4 /* LovinglifeTests.xctest */,
+				4EDF387A1C980E75004986D4 /* LovinglifeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4EDF38581C980E75004986D4 /* Lovinglife */ = {
+			isa = PBXGroup;
+			children = (
+				4EDF38901C98168C004986D4 /* Controllers */,
+				4EDF388F1C98166E004986D4 /* AppDelegate */,
+				4EDF38621C980E75004986D4 /* Main.storyboard */,
+				4EDF38671C980E75004986D4 /* LaunchScreen.storyboard */,
+				4EDF386A1C980E75004986D4 /* Info.plist */,
+				4EDF38591C980E75004986D4 /* Supporting Files */,
+			);
+			path = Lovinglife;
+			sourceTree = "<group>";
+		};
+		4EDF38591C980E75004986D4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4EDF385A1C980E75004986D4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4EDF38721C980E75004986D4 /* LovinglifeTests */ = {
+			isa = PBXGroup;
+			children = (
+				4EDF38731C980E75004986D4 /* LovinglifeTests.m */,
+				4EDF38751C980E75004986D4 /* Info.plist */,
+			);
+			path = LovinglifeTests;
+			sourceTree = "<group>";
+		};
+		4EDF387D1C980E75004986D4 /* LovinglifeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4EDF387E1C980E75004986D4 /* LovinglifeUITests.m */,
+				4EDF38801C980E75004986D4 /* Info.plist */,
+			);
+			path = LovinglifeUITests;
+			sourceTree = "<group>";
+		};
+		4EDF388F1C98166E004986D4 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				4EDF385C1C980E75004986D4 /* AppDelegate.h */,
+				4EDF385D1C980E75004986D4 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		4EDF38901C98168C004986D4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4EDF388C1C98165A004986D4 /* LLHomePageViewController.h */,
+				4EDF388D1C98165A004986D4 /* LLHomePageViewController.m */,
+				4EDF38911C9816D2004986D4 /* LLChattingViewController.h */,
+				4EDF38921C9816D2004986D4 /* LLChattingViewController.m */,
+				4EDF38971C981770004986D4 /* LLMineViewController.h */,
+				4EDF38981C981770004986D4 /* LLMineViewController.m */,
+				4EDF389A1C9817A7004986D4 /* LLCommunityViewController.h */,
+				4EDF389B1C9817A7004986D4 /* LLCommunityViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		5BC583B755741FFE308532DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A067EE6158ACC590DCA66EF9 /* libPods-Lovinglife.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8FCACBBCBCB049C262EDF6A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D2DB6B87DE9662F9D29BEEA0 /* Pods-Lovinglife.debug.xcconfig */,
+				DD0270157029B577438CB0A8 /* Pods-Lovinglife.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4EDF38551C980E75004986D4 /* Lovinglife */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EDF38831C980E75004986D4 /* Build configuration list for PBXNativeTarget "Lovinglife" */;
+			buildPhases = (
+				D8E5FD4C04E517E9E3CE070D /* Check Pods Manifest.lock */,
+				4EDF38521C980E75004986D4 /* Sources */,
+				4EDF38531C980E75004986D4 /* Frameworks */,
+				4EDF38541C980E75004986D4 /* Resources */,
+				02CD2EFDF54726D924696D6E /* Embed Pods Frameworks */,
+				9D8DEC4A3B3DE038621573DE /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lovinglife;
+			productName = Lovinglife;
+			productReference = 4EDF38561C980E75004986D4 /* Lovinglife.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4EDF386E1C980E75004986D4 /* LovinglifeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EDF38861C980E75004986D4 /* Build configuration list for PBXNativeTarget "LovinglifeTests" */;
+			buildPhases = (
+				4EDF386B1C980E75004986D4 /* Sources */,
+				4EDF386C1C980E75004986D4 /* Frameworks */,
+				4EDF386D1C980E75004986D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EDF38711C980E75004986D4 /* PBXTargetDependency */,
+			);
+			name = LovinglifeTests;
+			productName = LovinglifeTests;
+			productReference = 4EDF386F1C980E75004986D4 /* LovinglifeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4EDF38791C980E75004986D4 /* LovinglifeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EDF38891C980E75004986D4 /* Build configuration list for PBXNativeTarget "LovinglifeUITests" */;
+			buildPhases = (
+				4EDF38761C980E75004986D4 /* Sources */,
+				4EDF38771C980E75004986D4 /* Frameworks */,
+				4EDF38781C980E75004986D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EDF387C1C980E75004986D4 /* PBXTargetDependency */,
+			);
+			name = LovinglifeUITests;
+			productName = LovinglifeUITests;
+			productReference = 4EDF387A1C980E75004986D4 /* LovinglifeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4EDF384E1C980E75004986D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "孙志杰";
+				TargetAttributes = {
+					4EDF38551C980E75004986D4 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					4EDF386E1C980E75004986D4 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 4EDF38551C980E75004986D4;
+					};
+					4EDF38791C980E75004986D4 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 4EDF38551C980E75004986D4;
+					};
+				};
+			};
+			buildConfigurationList = 4EDF38511C980E75004986D4 /* Build configuration list for PBXProject "Lovinglife" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4EDF384D1C980E75004986D4;
+			productRefGroup = 4EDF38571C980E75004986D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4EDF38551C980E75004986D4 /* Lovinglife */,
+				4EDF386E1C980E75004986D4 /* LovinglifeTests */,
+				4EDF38791C980E75004986D4 /* LovinglifeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4EDF38541C980E75004986D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EDF38691C980E75004986D4 /* LaunchScreen.storyboard in Resources */,
+				4EDF38AC1CA400C0004986D4 /* Assets.xcassets in Resources */,
+				4EDF38641C980E75004986D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EDF386D1C980E75004986D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EDF38781C980E75004986D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02CD2EFDF54726D924696D6E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lovinglife/Pods-Lovinglife-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D8DEC4A3B3DE038621573DE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lovinglife/Pods-Lovinglife-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8E5FD4C04E517E9E3CE070D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4EDF38521C980E75004986D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EDF385E1C980E75004986D4 /* AppDelegate.m in Sources */,
+				4EDF388E1C98165A004986D4 /* LLHomePageViewController.m in Sources */,
+				4EDF389C1C9817A7004986D4 /* LLCommunityViewController.m in Sources */,
+				4EDF38931C9816D2004986D4 /* LLChattingViewController.m in Sources */,
+				4EDF38991C981771004986D4 /* LLMineViewController.m in Sources */,
+				4EDF385B1C980E75004986D4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EDF386B1C980E75004986D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EDF38741C980E75004986D4 /* LovinglifeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EDF38761C980E75004986D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EDF387F1C980E75004986D4 /* LovinglifeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4EDF38711C980E75004986D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4EDF38551C980E75004986D4 /* Lovinglife */;
+			targetProxy = 4EDF38701C980E75004986D4 /* PBXContainerItemProxy */;
+		};
+		4EDF387C1C980E75004986D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4EDF38551C980E75004986D4 /* Lovinglife */;
+			targetProxy = 4EDF387B1C980E75004986D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4EDF38621C980E75004986D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EDF38631C980E75004986D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4EDF38671C980E75004986D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EDF38681C980E75004986D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4EDF38811C980E75004986D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4EDF38821C980E75004986D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4EDF38841C980E75004986D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2DB6B87DE9662F9D29BEEA0 /* Pods-Lovinglife.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Lovinglife/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lovinglife.Lovinglife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4EDF38851C980E75004986D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD0270157029B577438CB0A8 /* Pods-Lovinglife.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Lovinglife/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lovinglife.Lovinglife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4EDF38871C980E75004986D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LovinglifeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lovinglife.LovinglifeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lovinglife.app/Lovinglife";
+			};
+			name = Debug;
+		};
+		4EDF38881C980E75004986D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LovinglifeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lovinglife.LovinglifeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lovinglife.app/Lovinglife";
+			};
+			name = Release;
+		};
+		4EDF388A1C980E75004986D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LovinglifeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lovinglife.LovinglifeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Lovinglife;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4EDF388B1C980E75004986D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LovinglifeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lovinglife.LovinglifeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Lovinglife;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4EDF38511C980E75004986D4 /* Build configuration list for PBXProject "Lovinglife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EDF38811C980E75004986D4 /* Debug */,
+				4EDF38821C980E75004986D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EDF38831C980E75004986D4 /* Build configuration list for PBXNativeTarget "Lovinglife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EDF38841C980E75004986D4 /* Debug */,
+				4EDF38851C980E75004986D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EDF38861C980E75004986D4 /* Build configuration list for PBXNativeTarget "LovinglifeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EDF38871C980E75004986D4 /* Debug */,
+				4EDF38881C980E75004986D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EDF38891C980E75004986D4 /* Build configuration list for PBXNativeTarget "LovinglifeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EDF388A1C980E75004986D4 /* Debug */,
+				4EDF388B1C980E75004986D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4EDF384E1C980E75004986D4 /* Project object */;
+}
